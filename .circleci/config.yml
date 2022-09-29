@@ -13,7 +13,7 @@ jobs:
     steps:
       # install node and checkout code
       - node/install:
-          node-version: '14.15'  - checkout
+          node-version: '14.15'  
   
       # Use root level package.json to install dependencies in the frontend app
       - run:
@@ -24,7 +24,7 @@ jobs:
       - run:
           name: Install API Dependencies
           command: |
-          npm run api:install
+             npm run api:install
       # TODO: Lint the frontend
       - run:
           name: Front-End Lint
