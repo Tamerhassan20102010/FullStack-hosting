@@ -48,3 +48,10 @@ The e2e tests are using Protractor and Jasmine.
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
 
+#### S3 Bucket
+The frontend application is deployed using AWS S3 Bucket. The bundled assets are uploaded to an S3 bucket and that
+bucket is made publicly readable.
+
+Bucket URL: `http://myudagram123.s3-website.us-east-2.amazonaws.com`
+
+End users can access the application from the Bucket URL.
